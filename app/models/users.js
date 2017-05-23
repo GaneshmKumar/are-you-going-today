@@ -6,8 +6,7 @@ var Schema = mongoose.Schema;
 var User = new Schema({
 	id: String,
 	username: String,
-	displayName: String,
-	token: String
+	displayName: String
 },
 {
 	timestamps: true

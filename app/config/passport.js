@@ -6,7 +6,7 @@ var configAuth = require('./auth');
 
 module.exports = function (passport) {
 	passport.serializeUser(function (user, done) {
-		done(null, user.id);
+		done(null, user._id);
 	});
 
 	passport.deserializeUser(function (id, done) {
@@ -35,7 +35,6 @@ module.exports = function (passport) {
 					newUser.id = profile.id;
 					newUser.username = profile.username;
 					newUser.displayName = profile.displayName;
-					newUser.token = profile.token;
 
 					newUser.save(function (err) {
 						if (err) {

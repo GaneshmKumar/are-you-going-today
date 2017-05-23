@@ -1,0 +1,10 @@
+#home {
+	transform: translateY(100px);
+}
+
+.restaurant {
+	border: solid 1px #212121;
+	padding: 20px 20px;
+	margin: 10px 10px;
+	border-radius: 10px;
+}
