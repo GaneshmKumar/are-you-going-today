@@ -1,0 +1,15 @@
+{
+  "name": "are-you-going-today",
+  "description": "A web app to coordinate unknown people on restraunt",
+  "main": "server.js",
+  "authors": [
+    "Ganesh Kumar M"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
